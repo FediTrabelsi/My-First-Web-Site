@@ -1,0 +1,220 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>ASM : inscription</title>
+	<LINK rel=stylesheet type="text/css" href="styles.css">
+  <LINK rel=stylesheet type="text/css" href="signlogin.css">
+</head>
+
+<body  >
+	<header>
+		<div class="right" id="PageName">
+            
+                <div class ="Pagename" id="entete">
+                	
+                       <p>AMS Heaven : inscription</p>
+                   </div>
+                   <div class="Pagedis">
+                       <p style="color: #FF9933">For Anime Movies and Series Discussion </p>
+
+                    </div>
+                
+
+		 <div class="topnav">
+  <a href="..\Acceuil.html">Home</a>
+  <a class="ta" href="..\Gaming\games.html">Gaming</a>
+  <a href="..\Anime\Anime.html">Anime</a>
+  <a href="..\film\film.html">Movies</a>
+  <a href="..\Series\series.html">Tv Series</a>
+  <a class="active" href="PageInscri.html">Sign In</a>
+  <a href="..\sugesstions\suggestion.html">Suggestions</a>
+  <a href="..\contact\contact.html">Contact</a>
+  <div align="right">
+  <input type="search" placeholder="Search...">
+</div>
+</div>
+
+
+                
+	</header>
+	  <div id="banniere_image">
+                <div align="center" class="banniere" id="banniere_description">
+                    <div class="slideshow-container">
+
+
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="banniere3.jpeg" style="width:100%">
+   
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="banniere.jpg" style="width:100%">
+  >
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="banniere1.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="banniere2.jpg" style="width:100%">
+  
+  </div>
+
+  
+</div>
+<br>
+                    <script>
+                      var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+                    </script>
+                </div>
+
+            
+<section >
+  <article class="formulaireZone">
+  <div  >
+   <p class="Pagename" >Formulaire d' inscription</p> 
+  </div>
+  <div style="color: black">
+  <div style="margin-top: 30px">
+    <form>
+    <fieldset>
+    <legend style="color:black;">Necessary Info</legend>
+    <formaction="/action_page.php" style="border:1px solid #ccc">
+    <label for="nom"><b>First_Name</b></label>
+    <INPUT
+TYPE="text"
+Name="nom"
+required >
+<label for="last nom"><b>Last_Name</b></label>
+<INPUT
+TYPE="text"]
+Name="prenom"
+name="last nom" required>
+ <label for="age"><b>Birthday</b></label>
+    <INPUT
+TYPE="date"
+Name="age"
+name="age" required>
+ <label for="email"><b>Email</b></label>
+    <INPUT
+TYPE="text"]
+Name="mail"
+name="email" required> 
+<label for="pw"><b>Password</b></label>
+    <INPUT
+TYPE="password"]
+Name="pass"
+name="pw" required> 
+<label for="cpw"><b>Confirm_Password</b></label>
+    <INPUT
+TYPE="password"]
+Name="conpass"
+name="cpw" required> 
+</fieldset>
+<br>
+<br>
+ <fieldset>
+  <legend style="color:black;">Complaimentairy Info</legend>
+ <label for="pays"><b>Country</b></label>
+    <INPUT
+TYPE="text"]
+Name="country"
+/> 
+<label for="phone"><b>Phone_number</b></label>
+    <INPUT
+TYPE="text"]
+Name="Phone number"
+/> 
+
+<b >check you like to be notified about everything new with : </b><br>
+<div style="color:black;">
+    <INPUT  TYPE="checkbox" NAME="Remember"
+          VALUE="remember" > Gaming <br>
+          
+    <INPUT  TYPE="checkbox" NAME="Remember"
+          VALUE="remember" > Anime <br>
+
+    <INPUT  TYPE="checkbox" NAME="Remember"
+          VALUE="remember" > Movies <br>
+
+    <INPUT  TYPE="checkbox" NAME="Remember"
+          VALUE="remember" > Tv Series <br><br>
+
+ <b>Did you enjoy the formulaire? </b>
+ <br>
+    <INPUT type="radio" name = tr />  Yes <br>
+    <INPUT type="radio" name = tr />  No <br><br>
+  </div>
+  </fieldset>
+ 
+ 
+ <br>
+ <div class="container">
+  
+    <div class="clearfix">
+      
+      <button herf="ad" type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+
+</form>
+    </div>
+  </div>
+</article>
+<aside  style="margin-right: 30px;margin-top: 30px" >
+  <div style="color : black ;"  >
+
+  <form >
+  <div class="container">
+    <h1>Log in </h1>
+    <p>Please enter your mail and pass to log in</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    
+
+    <div class="clearfix">
+      
+      <button type="submit" class="signupbtn">Sign in</button>
+    </div>
+  </div>
+</form>
+</aside>
+</section>
+	<footer>
+	</footer>
+
+
+
+</body>
+</html>

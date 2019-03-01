@@ -1,0 +1,164 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>ASM</title>
+	<LINK rel=stylesheet type="text/css" href="styles.css">
+  <LINK rel=stylesheet type="text/css" href="signlogin.css">
+</head>
+
+<body  >
+	<header>
+		<div class="right" id="PageName">
+            
+                <div class ="Pagename" id="entete">
+                	
+                       <p>AMS Heaven</p>
+                   </div>
+                   <div class="Pagedis">
+                       <p>For Anime Movies and Series Discussion </p>
+
+                    </div>
+                
+
+		 <div class="topnav">
+  <a href="..\Acceuil.html">Home</a>
+  <a class="ta" href="..\Gaming\games.html">Gaming</a>
+  <a href="..\Anime\Anime.html">Anime</a>
+  <a href="..\film\film.html">Movies</a>
+  <a href="..\Series\series.html">Tv Series</a>
+  <a href="..\Web\signin\PageInscri.html">Sign In</a>
+  <a class="active" href="suggestion">Suggestions</a>
+  <a href="..\contact\contact.html">Contact</a>
+   <input type="search" placeholder="Search...">
+</div>
+
+
+                
+	</header>
+  <div id="banniere_image">
+                <div align="center" class="banniere" id="banniere_description">
+                    <div class="slideshow-container">
+
+
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="banniere3.jpeg" style="width:100%">
+   
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="banniere.jpg" style="width:100%">
+  >
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="banniere1.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="banniere2.jpg" style="width:100%">
+  
+  </div>
+
+  
+</div>
+<br>
+                    <script>
+                      var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+                    </script>
+                  </div>
+
+  
+    <div class="formulaireZone">
+        <p align="center"  class="container"> This section is made for you to help us improve our WebSite </p><br>
+        <p align="center"> </p>In or aoder to do so , we had set bellow a couple dialogue box in wich you are free to write anything u like about about this page so we can work on improving it,anything you hate so we can review it in order to adapt it to your desiers or even delete if we recieve many complains about it and even suggest new content to be uploaded here.So without further ado let's get started :<br>  <br>
+
+        <form style="padding-top: 20px">
+
+              <label for="sug" class="container" ><b>General Review</b></label><br><br>
+              <input type="textarea" placeholder="Review" name="rev" required><br>
+              <p  class="container">Favourit Sections</p>
+                  <INPUT  TYPE="checkbox" NAME="fg"
+                      VALUE="remember" > Gaming <br>
+          
+                   <INPUT  TYPE="checkbox" NAME="fa"
+                      VALUE="remember" > Anime <br>
+
+                   <INPUT  TYPE="checkbox" NAME="fm"
+                      VALUE="remember" > Movies <br>
+
+                   <INPUT  TYPE="checkbox" NAME="fsr"
+                     VALUE="remember" > Tv Series <br>
+                  <input type="checkbox"   Name="none"> None<br>
+
+              <p  class="container">Least Favourit Sections</p>
+              <INPUT  TYPE="checkbox" NAME="fg"
+                      VALUE="remember" > Gaming <br>
+          
+                   <INPUT  TYPE="checkbox" NAME="fa"
+                      VALUE="remember" > Anime <br>
+
+                   <INPUT  TYPE="checkbox" NAME="fm"
+                      VALUE="remember" > Movies <br>
+
+                   <INPUT  TYPE="checkbox" NAME="fsr"
+                     VALUE="remember" > Tv Series <br>
+                  <input type="checkbox"   Name="none"> None<br><br>
+                  <label for="sugcont"  class="container" ><b>Suggest new Content :</b></label><br><br>
+              <input type="text" placeholder="name a set a movies for us to review in this format mov1/mov2/..." name="ms" ><br>
+               <input type="text" placeholder="name a set a series for us to review in this format ser1/ser2/..." name="ss" ><br>
+                <input type="text" placeholder="name a set a movies for us to review in this format gam1/gam2/..." name="gs" ><br>
+                 <input type="text" placeholder="name a set a movies for us to review in this format anime1/anime2/..." name="as" ><br>
+                <p  class="container">Last Rate us in General </p><br>
+                 <select name ="rating" style="color:red"> 
+                <option value ="1s"> ☆ </option>
+                <option value ="2s"> ☆☆  </option>
+                <option value ="3s"> ☆☆☆</option>
+                <option value ="4s"> ☆☆☆☆ </option>
+                <option value ="5s"> ☆☆☆☆☆ </option>
+                
+              </select> 
+               <div class="container">
+  
+              <div class="clearfix" style="margin-left: 30%" >
+      
+               <button herf="ad" type="submit" class="signupbtn">Submit Suggestions</button>
+              </div>
+               </div>
+                 
+
+
+
+        </form> 
+    
+
+    </div>
+
+  
+	         
+
+            
+
+	<footer>
+	</footer>
+
+
+</body>
+</html>

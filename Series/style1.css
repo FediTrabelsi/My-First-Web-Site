@@ -1,0 +1,31 @@
+.presentation{
+	width: 80%;
+	margin-left:10%;
+	box-shadow: 10px 10px 5px #aaaaaa;
+background-color: #e6e6e6;
+}
+
+.presentation2{
+ 	flex: 1.2;
+  	 border: 5px solid white;
+   
+    background-color: #E9E9E9;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+   width: 425px;
+   height: 600px;
+    padding-bottom: : 250px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.m1{
+	color: #0099ff;
+	font-size: 28;
+	align-content: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	float: center;
+}

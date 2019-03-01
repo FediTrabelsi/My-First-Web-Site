@@ -1,0 +1,199 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>ASM</title>
+	<LINK rel=stylesheet type="text/css" href="styles.css">
+</head>
+
+<body  >
+	<header>
+		<div  id="PageName">
+            
+                <div class ="Pagename" id="entete">
+                	
+                       <p>AMS Heaven</p>
+                   </div>
+                   <div class="Pagedis">
+                       <p>For Anime Movies and Series Discussion </p>
+
+                    </div>
+                
+
+		 <div class="topnav">
+  <a class="active" href="C:\Users\admin\Desktop\Web\Acceuil.html">Home</a>
+  <a href=".\Gaming\games.html">Gaming</a>
+  <a href=".\Anime\Anime.html">Anime</a>
+  <a href=".\film\film.html">Movies</a>
+  <a href=".\Series\series.html">Tv Series</a>
+  <a href="signin\PageInscri.html">Sign In</a>
+  <a href=".\sugesstions\suggestion.html">Suggestions</a>
+  <a href=".\contact\CV_fedi_trabelsi.pdf">Contact</a>
+  <input type="Search" placeholder="Search...">
+</div>
+
+
+                
+	</header>
+	  <div id="banniere_image">
+                <div align="center" class="banniere" id="banniere_description">
+                    
+                    <div class="slideshow-container">
+
+
+  
+  <div  class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="banniere3.jpeg" style="width:100%">
+   
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="banniere.jpg" style="width:100%">
+  >
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="banniere1.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="banniere2.jpg" style="width:100%">
+  
+  </div>
+
+  
+</div>
+<br>
+                    <script>
+                      var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 3000); 
+}
+                    </script>
+                </div>
+                </div>
+            </div>
+	  <section>
+                <article class="center">
+                <button class="tablink" onclick="openPage('Gaming', this, 'gray')" id="defaultOpen">Gaming</button>
+                <button class="tablink" onclick="openPage('Anime', this, 'red')" >Anime</button>
+<button class="tablink" onclick="openPage('Movies', this, 'green')" >Movies</button>
+<button class="tablink" onclick="openPage('TvSeries', this, 'blue')">TvSeries</button>
+
+
+<div id="Gaming" class="tabcontent">
+    <p>League of legends guide : builds ,champs ...</p>
+  <br><br><br>
+  <p>Need For Speed : Game Announcement </p>
+  <br><br><br>
+  <p>Dota 2 : season 9 finals Skt vs Swamps prediction section</p>
+  <br><br>
+  <p>Overwatch new champ : War Hammer spotlight and abilities thread</p>
+  <br><br>
+  
+</div>
+<div id="Anime" class="tabcontent">
+  <a href="C:\Users\admin\Desktop\Web\Anime\nanatsu.html">Nanatsu No Taizai Season 2 : Announcement and recap</a>
+  <br><br><br>
+  <a href="C:\Users\admin\Desktop\Web\Chap1\chap1.0.html">Nanatsu No Taizai Season MAnga : chapter 257 released</a>
+  <br><br><br>
+  <p>Berserk : Season1 Episode 15 discussion</p>
+  <br><br>
+  <p>Berserk Manga : chapter 452 released</p>
+  <br><br>
+  
+</div>
+
+<div id="Movies" class="tabcontent">
+  <h3>Movies</h3>
+      <p>Tomb rider : cast and production</p>
+  <br><br><br>
+  <p>Plack panther : the First movie in MCU fase four </p>
+  <br><br><br>
+  <p>Star Wars : the last jedi / did it live to the expectation or was it a fail</p>
+  <br><br>
+  <p>OUs Box office 22/04/2018</p>
+  <br><br>
+  
+</div>
+
+<div id="TvSeries" class="tabcontent">
+  <h3>Tv Series</h3>
+  
+</div>
+
+
+<script>
+  
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+     
+                    
+                </article>
+	 <aside >		
+	 	<div>
+                    <h1 class="yellow" align="center" >About Our Web Page</h1>
+                    <p align="center">This WebSite is ment to become the largest space that unites every movies,anime and tv series out there !Here u will find a sub-devision for each intrest stated above.each devision contains the latest news about that theme.For exemple in the Movie section u will find  : its biggest hits, release dates for upcoming pictures , reviews for any film you ask for and or own suggestions for what u should watch. You can sign in and create an account in witch you can add your favorites.There is also a suggestion section where u can fill form to rate us and suggest anything you like. We hope u enjoy your tour in our Site so have fun. </p>
+            <br>
+
+            <br>
+               <p>Movies</p>
+<div class="container">
+  <div class="Visitors Movies">350 visitor</div>
+</div>
+
+<p>Tv Series</p>
+<div class="container">
+  <div class="Visitors Series">280 visitor</div>
+</div>
+
+<p>Gaming</p>
+<div class="container">
+  <div class="Visitors Anime">190 visitor</div>
+</div>
+
+<p>Anime</p>
+<div class="container">
+  <div class="Visitors Gaming">165 visitor</div>
+</div>
+             </div>
+
+                   
+                    
+                </aside>
+
+
+	<footer>
+	</footer>
+
+
+</body>
+</html>
